@@ -6,6 +6,8 @@
     <a href="https://pt-br.reactjs.org/">ReactJS</a>
 </h1>
 
+![music-player](https://user-images.githubusercontent.com/50889610/139756888-d0f0345c-92a3-47b3-9dad-989fa0fb1dc8.png)
+
 Estrutura de Pastas <br>
 ========================
 
@@ -31,5 +33,5 @@ Estrutura de Pastas <br>
  * Abrir o VScode, no terminal: npm i ou yarn install
  * Iniciar a aplicação: yarn start ou npm start
 
-![music-player](https://user-images.githubusercontent.com/50889610/139756888-d0f0345c-92a3-47b3-9dad-989fa0fb1dc8.png)
+
 
