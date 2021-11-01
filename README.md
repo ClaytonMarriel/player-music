@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# Interface de um Player de Áudio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Nessa aplicação, foi desenvolvido uma interface de um Player de Áudio utilizando o framework React com Typescript. Na estilização, utilizei o CSS3 puro, afim de aprofundar meus conhecimentos.
 
-## Available Scripts
+<h1 align="center">
+    <a href="https://pt-br.reactjs.org/">NodeJS</a>
+</h1>
 
-In the project directory, you can run:
+Estrutura de Pastas <br>
+========================
 
-### `yarn start`
+<!--ts-->
+  * [assets](#assets)         -> Armazena as imagens que foram utilizadas na aplicação.
+  * [containers](#containers) ->  Dentro dos containers, temos o Controls e o Player.
+  * [containers](#Controls)   ->  No Controls.ts, monto a estrutura para receber o componente ControlButton.
+  * [containers](#Player)     ->  No Player.ts, é montado a estrutura para receber os components PlaylistHeader e       PlaylistItems. 
+  * [containers](#index.ts)   -> Realiza a exportação dos containers, que são importados na App.tsx.
+  * [services](#api.ts)       -> Simulando um consumo de uma API, contém dois objetos (parecido com a estrutura do json), onde eu consumo esses dados no PlaylistHeader e no PlaylistItems.
+<!--te-->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h4 align="center"> 
+	🚧 Aplicação em construção... 🚧
+</h4>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Pré-requisitos
+ * Possuir o Node.js instalado
+ * VScode instalado
+ * Para rodar a aplicação:
+ * Clonar este repositório através do git clone "link deste repositório"
+ * Abrir o VScode, no terminal: npm i ou yarn install
+ * Iniciar a aplicação: yarn start ou npm start
