@@ -3,7 +3,7 @@
 ## Nessa aplicação, foi desenvolvido uma interface de um Player de Áudio utilizando o framework React com Typescript. Na estilização, utilizei o CSS3 puro, afim de aprofundar meus conhecimentos.
 
 <h1 align="center">
-    <a href="https://pt-br.reactjs.org/">NodeJS</a>
+    <a href="https://pt-br.reactjs.org/">ReactJS</a>
 </h1>
 
 Estrutura de Pastas <br>
